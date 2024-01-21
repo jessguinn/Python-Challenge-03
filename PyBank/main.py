@@ -46,7 +46,7 @@ try:
         print(f"Greatest Increase in Profits: {Greatest_Increase_in_Profits['Date']} (${Greatest_Increase_in_Profits['Profit/Losses']})")
         print(f"Greatest Decrease in Profits: {Greatest_Decrease_in_Profits['Date']} (${Greatest_Decrease_in_Profits['Profit/Losses']})")
 
-        output_file = os.path.join("PyBank Analysis.txt")
+        output_file = os.path.join("Analysis", "PyBank Analysis.txt")
 
         with open(output_file, "w", newline='') as datafile:
 
